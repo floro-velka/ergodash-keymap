@@ -31,3 +31,30 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_RIGHT
 // #define MASTER_RIGHT
 // #define EE_HANDS
+
+// マウス設定
+
+// マウス入力から反応までの遅延
+#undef  MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY 50
+
+// マウス操作がトップスピードになるまでの時間
+#undef  MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX 20
+
+// 押しっぱなしの時の反応までのインターバル
+#undef  MOUSEKEY_INTERVAL
+#define MOUSEKEY_INTERVAL 0
+
+// カーソルの移動スピード
+#undef  MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED 2
+
+#undef  MOUSEKEY_WHEEL_INTERVAL
+#define MOUSEKEY_WHEEL_INTERVAL 50
+
+#undef  MOUSEKEY_WHEEL_TIME_TO_MAX
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 0
+
+#undef  MOUSEKEY_WHEEL_MAX_SPEED
+#define MOUSEKEY_WHEEL_MAX_SPEED 1
